@@ -1,0 +1,25 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Taggarts First Hugo Site"
+theme = "tb-name"
+
+[menu]
+
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    pre = "<i class='fa fa-heart'></i>"
+    url = "/about/"
+    weight = -110
+
+  [[menu.main]]
+    name = "Getting Started"
+    pre = "<i class='fa fa-road'></i>"
+    url = "/getting-started/"
+    weight = -100
+
+  [[menu.main]]
+    name = "Posts"
+    pre = "<i class='fa fa-road'></i>"
+    url = "/posts/"
+    weight = -100
